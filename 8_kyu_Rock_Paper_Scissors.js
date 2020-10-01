@@ -33,3 +33,15 @@ const rps = (p1, p2) => {
   )
     return 'Player 2 won!'
 }
+
+
+second solution which is the shorter solution
+use ? : and stick the text in a template literal 
+
+const rps = (p1, p2) =>
+  p1 === p2
+    ? 'Draw!'
+    : `Player ${
+        /rockscissors|scissorspaper|paperrock/.test(`${p1}${p2}`) ? 1 : 2
+      } won!`
+
