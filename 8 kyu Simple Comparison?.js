@@ -15,6 +15,9 @@ To make this challange harder and to promp the challenger to read up about coerc
 
 FUNDAMENTALSSTRINGSNUMBERSINTEGERS
 
+NOTES:
+I think the + sign "coerced the type to be number, and once both variables are seems as numbers by JS then you can use == to compare them
+
 function add(a, b){
 	return +a==+b
 }
