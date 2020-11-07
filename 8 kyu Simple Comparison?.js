@@ -21,3 +21,13 @@ I think the + sign "coerced the type to be number, and once both variables are s
 function add(a, b){
 	return +a==+b
 }
+
+Solution 2:
+function add(a, b){
+	return a==b
+}
+
+additional notes:
+if this is put in the console:
+console.log('' == 0)
+it results true bc the inside is technically 0 so it reads 0 is equal to 0 so that is technically true
