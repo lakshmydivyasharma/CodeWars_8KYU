@@ -1,6 +1,6 @@
 https://www.codewars.com/kata/5748838ce2fab90b86001b1a/train/javascript
 
-8 kyu
+8 kyu 
 Area of a Square
 843189% of 9652,401 of 5,194romerojp
 JavaScript
